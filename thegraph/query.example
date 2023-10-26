@@ -1,0 +1,105 @@
+{
+  rounds(
+    first: 10
+    orderBy: timestamp, orderDirection: desc
+  ) {
+    id
+    totalMint
+    totalBurn
+    totalRewardsWalletMint
+    totalClaimed
+    randomNum
+    randomEliminator
+    vrfRequestId
+    vrfNum
+    timestamp
+    users {
+      user {
+        id
+      }
+    }
+    eliminators {
+      id
+      contractMode { id }
+      recordedExpectedValueFloor
+      isEliminator
+      timestamp
+    }
+  }
+  batchEntries(first: 10) {
+    id
+    round { id }
+    player { id }
+    batchEntryId
+    totalEntryAmount
+    totalMintAmount
+    settled
+    settledOn
+    timestamp
+    entrys {
+      id
+      entryIdx
+      contractMode { id }
+      amount
+      pickedNumber
+      mintAmount
+      timestamp
+    }
+  }
+  contractModes(first: 10) {
+    id
+    cardinality
+    contractExpectedValueFloor
+    mintMultiplier
+    minAmount
+    maxAmount
+    entryLimit
+    isActive
+    timestamp
+  }
+  users(
+    first: 10
+    orderBy: balance, orderDirection: desc
+    where: {
+      # totalMint_gt: 0
+    }
+  ) {
+    id
+    balance
+    totalRounds
+    totalEntries
+    totalMint
+    totalClaimed
+    totalBurn
+    transferIn
+    transferOut
+    rewardsWalletMint
+    timestamp
+  }
+  fareTransfers(
+    first: 10
+    orderBy: timestamp, orderDirection: desc
+  ) {
+    id
+    from
+    to
+    amount
+    type
+    timestamp
+  }
+  eventLogs(
+    first: 10
+    orderBy: timestamp, orderDirection: desc
+    where: {
+    	# logType: "EntrySettled"
+    }
+  ) {
+    id
+    address
+    blockNumber
+    logIndex
+    logType
+    txHash
+    timestamp
+  }
+}

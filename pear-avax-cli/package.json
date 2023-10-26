@@ -1,0 +1,82 @@
+{
+    "name": "pear-avax-cli",
+    "description": "CLI tool that creates and runs a local AVAX cluster of 5 nodes.",
+    "version": "1.1.1",
+    "license": "MIT",
+    "bin": "dist/Cli.js",
+    "engines": {
+        "node": ">=12"
+    },
+    "scripts": {
+        "build": "tsc && chmod +x dist/Cli.js",
+        "build:watch": "tsc -w -p tsconfig.json",
+        "start": "npm run build && node --experimental-modules dist/Cli.js",
+        "test:server": "npm run build && node --experimental-modules dist/Cli.js \"server\"",
+        "test:install": "npm run build && node --experimental-modules dist/Cli.js \"install\"",
+        "test:update": "npm run build && node --experimental-modules dist/Cli.js \"update\"",
+        "help": "npm run build && node --experimental-modules dist/Cli.js --\"help\"",
+        "pretest": "npm run build",
+        "prepublish": "npm run build",
+        "test": "xo && ava"
+    },
+    "files": [
+        "dist/Cli.js",
+        "dist/constants.js",
+        "dist/Entry.js",
+        "dist/Install.js",
+        "dist/Server.js",
+        "dist/Update.js",
+        "dist/utils.js",
+        "dist/lib/avaxApi.js"
+    ],
+    "dependencies": {
+        "axios": "^0.26.1",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-import-resolver-typescript": "^2.7.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "ink": "^3.2.0",
+        "ink-spinner": "^4.0.3",
+        "ink-text-input": "^4.0.3",
+        "json-beautify": "^1.1.1",
+        "meow": "^9.0.0",
+        "node-emoji": "^1.11.0",
+        "prettier": "^2.6.2",
+        "react": "^17.0.2",
+        "simple-git": "^3.5.0",
+        "strip-ansi": "^7.0.1"
+    },
+    "ava": {
+        "typescript": {
+            "extensions": [
+                "tsx"
+            ],
+            "rewritePaths": {
+                "source/": "dist/"
+            }
+        }
+    },
+    "xo": {
+        "extends": "xo-react",
+        "rules": {
+            "react/prop-types": "off"
+        }
+    },
+    "devDependencies": {
+        "@ava/typescript": "^3.0.1",
+        "@sindresorhus/tsconfig": "^2.0.0",
+        "@types/react": "^17.0.43",
+        "@typescript-eslint/eslint-plugin": "^5.18.0",
+        "@typescript-eslint/parser": "^5.18.0",
+        "ava": "^4.1.0",
+        "chalk": "^4.1.2",
+        "eslint-config-xo-react": "^0.27.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.4.0",
+        "ink-testing-library": "^2.1.0",
+        "typescript": "^4.6.3",
+        "xo": "^0.39.1"
+    }
+}

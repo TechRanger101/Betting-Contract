@@ -1,0 +1,124 @@
+type EventLog @entity {
+  "txHash.concat(logIndex)"
+  id: ID!
+  address: Bytes!
+  blockNumber: Int!
+  logIndex: BigInt!
+  logType: String
+  from: Bytes!
+  txHash: Bytes!
+  timestamp: Int!
+}
+
+enum EnumFareTransfer {
+  Mint
+  Transfer
+  Burn
+}
+
+type FareTransfer @entity {
+  "eventLog.id"
+  id: ID!
+  from: Bytes!
+  to: Bytes!
+  amount: BigInt!
+  type: EnumFareTransfer!
+  timestamp: Int!
+  eventLog: EventLog!
+}
+
+type User @entity {
+  "unique identity of all users by address"
+  id: ID!
+  balance: BigInt!
+  totalRounds: BigInt!
+  totalEntries: BigInt!
+  totalMint: BigInt!
+  totalClaimed: BigInt!
+  totalBurn: BigInt!
+  transferIn: BigInt!
+  transferOut: BigInt!
+  rewardsWalletMint: BigInt!
+  timestamp: Int!
+  eventLog: EventLog!
+  rounds: [RoundUser!]! @derivedFrom(field: "user")
+}
+
+type ContractMode @entity {
+  "incremental identity of all contract modes"
+  id: ID!
+  cardinality: BigInt!
+  contractExpectedValueFloor: BigInt!
+  mintMultiplier: BigInt!
+  minAmount: BigInt!
+  maxAmount: BigInt!
+  entryLimit: BigInt!
+  isActive: Boolean!
+  timestamp: Int!
+  eventLog: EventLog!
+}
+
+type Round @entity {
+  "incremental identity of all rounds"
+  id: ID!
+  totalMint: BigInt!
+  totalBurn: BigInt!
+  totalRewardsWalletMint: BigInt!
+  totalClaimed: BigInt!
+  randomNum: BigInt
+  randomEliminator: BigInt
+  vrfRequestId: Bytes
+  vrfNum: BigInt
+  timestamp: Int!
+  eventLog: EventLog!
+  users: [RoundUser!]! @derivedFrom(field: "round")
+  eliminators: [Eliminator!]! @derivedFrom(field: "round")
+}
+
+type RoundUser @entity {
+  "round.id.concat(user.id)"
+  id: ID!
+  round: Round!
+  user: User!
+  timestamp: Int!
+  eventLog: EventLog!
+}
+
+type Eliminator @entity {
+  "round.id.concat(contractMode.id)"
+  id: ID!
+  round: Round!
+  contractMode: ContractMode!
+  recordedExpectedValueFloor: BigInt!
+  isEliminator: Boolean!
+  timestamp: Int!
+  eventLog: EventLog!
+}
+
+type BatchEntry @entity {
+  "round.id.concat(params.user)"
+  id: ID!
+  round: Round!
+  player: User!
+  batchEntryId: BigInt!
+  totalEntryAmount: BigInt!
+  totalMintAmount: BigInt!
+  settled: Boolean
+  settledOn: Int
+  timestamp: Int!
+  eventLog: EventLog!
+  entrys: [Entry!]! @derivedFrom(field: "batchEntry")
+}
+
+type Entry @entity {
+  "batchEntry.id.concat(this.entryIdx)"
+  id: ID!
+  batchEntry: BatchEntry!
+  entryIdx: BigInt!
+  contractMode: ContractMode!
+  amount: BigInt!
+  pickedNumber: BigInt!
+  mintAmount: BigInt!
+  timestamp: Int!
+  eventLog: EventLog!
+}

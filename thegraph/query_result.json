@@ -1,0 +1,1481 @@
+{
+  "data": {
+    "rounds": [
+      {
+        "id": "0x20",
+        "randomNum": null,
+        "randomEliminator": null,
+        "vrfRequestId": null,
+        "vrfNum": null,
+        "timestamp": 1665167688,
+        "users": [
+          {
+            "user": {
+              "id": "0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2"
+            }
+          },
+          {
+            "user": {
+              "id": "0x3ea5f4a1f35f833620af1c0013e0a6cb3ef3b3ae"
+            }
+          },
+          {
+            "user": {
+              "id": "0x932ad590f43792ec064467d65d77f0fe1f7a7ea3"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa26e47663fc29dd2c8672f5750c008ffdfefacbe"
+            }
+          }
+        ],
+        "eliminators": []
+      },
+      {
+        "id": "0x1f",
+        "randomNum": "34",
+        "randomEliminator": "515994079640423122",
+        "vrfRequestId": "0x17a386705d0c323271a46d4976add36eed4e78409d6597dd6e8a59ad9be002ca",
+        "vrfNum": "98863426911025712624827768448204060610585364781491922787663769860289679775847",
+        "timestamp": 1665167616,
+        "users": [
+          {
+            "user": {
+              "id": "0x5d59110fec5e3602a136a0b41037a17ae8ffc9f2"
+            }
+          },
+          {
+            "user": {
+              "id": "0x6e18d1471567c841fa12b64ebee495ed2a5b7b09"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa2257edadaa38c845315b3b9038a8a1a306576ad"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa7fe5fc4446c1965e828193063b76b76430c576a"
+            }
+          },
+          {
+            "user": {
+              "id": "0xe34af32c099c7cbef9d2e94ef6017609efc1b811"
+            }
+          },
+          {
+            "user": {
+              "id": "0xe4177c881c8e1ba37abff47f62c2b3a1bb1ada64"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x1f-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665167616
+          },
+          {
+            "id": "0x1f-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665167616
+          },
+          {
+            "id": "0x1f-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665167616
+          }
+        ]
+      },
+      {
+        "id": "0x1e",
+        "randomNum": "6",
+        "randomEliminator": "106387500461753984",
+        "vrfRequestId": "0x2c51b587d14b4d9727649165c3429b242a8d0d2ddad0de5e68a01bcbead36773",
+        "vrfNum": "91759274871682094209395889468936386275003293608444351388270347641783897163245",
+        "timestamp": 1665167494,
+        "users": [
+          {
+            "user": {
+              "id": "0x23b8f934b9f14271c812b01042537eb055fb6f10"
+            }
+          },
+          {
+            "user": {
+              "id": "0x6405fc4fc8af2fbaa0f30f7badbde8130569c4b1"
+            }
+          },
+          {
+            "user": {
+              "id": "0x90291c13de0a54ef4c41d5837636e5bb17bc3077"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa1143ee9c3b809929a35694ffcdc3e2443f2404c"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa762f4f437210fe914da1c448a1dd555cfacee31"
+            }
+          },
+          {
+            "user": {
+              "id": "0xbf84bcaa844309efedb96c60d09c2e598272e359"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x1e-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665167494
+          },
+          {
+            "id": "0x1e-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665167494
+          },
+          {
+            "id": "0x1e-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665167494
+          }
+        ]
+      },
+      {
+        "id": "0x1d",
+        "randomNum": "99",
+        "randomEliminator": "280113283594391049",
+        "vrfRequestId": "0x00de0d99350e6c15384d652da7438301e13b3b88667d48975acac003b117336e",
+        "vrfNum": "27895047222210576903346329900969662102721353430439255788317392902178149379566",
+        "timestamp": 1665167371,
+        "users": [
+          {
+            "user": {
+              "id": "0x02d6548d4bd421f87b40c912137ca489708d2515"
+            }
+          },
+          {
+            "user": {
+              "id": "0x0b4afeb2f43e3f785d46dabcd703f0c82c107820"
+            }
+          },
+          {
+            "user": {
+              "id": "0x4dcc6698476f58749c75dc50cd55490e4a8e7392"
+            }
+          },
+          {
+            "user": {
+              "id": "0x9f9814901b4eb01d93b46b6ceb16b0cbd02834bc"
+            }
+          },
+          {
+            "user": {
+              "id": "0xbb7803bfbe5ad969e48ce418a47d380ac28b1740"
+            }
+          },
+          {
+            "user": {
+              "id": "0xc75030e40f0eb47ff695a08a4699218790ee5be5"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x1d-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665167371
+          },
+          {
+            "id": "0x1d-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665167371
+          },
+          {
+            "id": "0x1d-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665167371
+          }
+        ]
+      },
+      {
+        "id": "0x1c",
+        "randomNum": "50",
+        "randomEliminator": "985965901670551825",
+        "vrfRequestId": "0xcee769c7eaed947d34734774028bb806927c35c5224e128c8ba39ada320600d5",
+        "vrfNum": "114551640598393280546720791163366672749291116174897378039049685986770581379304",
+        "timestamp": 1665167249,
+        "users": [
+          {
+            "user": {
+              "id": "0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec"
+            }
+          },
+          {
+            "user": {
+              "id": "0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2"
+            }
+          },
+          {
+            "user": {
+              "id": "0x3ea5f4a1f35f833620af1c0013e0a6cb3ef3b3ae"
+            }
+          },
+          {
+            "user": {
+              "id": "0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa26e47663fc29dd2c8672f5750c008ffdfefacbe"
+            }
+          },
+          {
+            "user": {
+              "id": "0xd766ad55254e14dcae152a30b5d6d0ce6f3f8f1f"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x1c-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": true,
+            "timestamp": 1665167249
+          },
+          {
+            "id": "0x1c-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": true,
+            "timestamp": 1665167249
+          },
+          {
+            "id": "0x1c-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": true,
+            "timestamp": 1665167249
+          }
+        ]
+      },
+      {
+        "id": "0x1b",
+        "randomNum": "8",
+        "randomEliminator": "699845954396990199",
+        "vrfRequestId": "0x761023b24a5ee1c178bc5882de7d786203584bb907638d9e9414a052aea29e05",
+        "vrfNum": "31531608132410599456242771825581980631529561392146137471666842889734003941309",
+        "timestamp": 1665167127,
+        "users": [
+          {
+            "user": {
+              "id": "0x5d59110fec5e3602a136a0b41037a17ae8ffc9f2"
+            }
+          },
+          {
+            "user": {
+              "id": "0x932ad590f43792ec064467d65d77f0fe1f7a7ea3"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa2257edadaa38c845315b3b9038a8a1a306576ad"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa7fe5fc4446c1965e828193063b76b76430c576a"
+            }
+          },
+          {
+            "user": {
+              "id": "0xe34af32c099c7cbef9d2e94ef6017609efc1b811"
+            }
+          },
+          {
+            "user": {
+              "id": "0xe4177c881c8e1ba37abff47f62c2b3a1bb1ada64"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x1b-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665167127
+          },
+          {
+            "id": "0x1b-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665167127
+          },
+          {
+            "id": "0x1b-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665167127
+          }
+        ]
+      },
+      {
+        "id": "0x1a",
+        "randomNum": "5",
+        "randomEliminator": "871273077283290635",
+        "vrfRequestId": "0xe00eb2a2a1b2d64497e9969e0c773001012ace8720ee030c332e88118c3dcba4",
+        "vrfNum": "69476755975535610740957712638155665224313568312688965650096281055321064744728",
+        "timestamp": 1665167004,
+        "users": [
+          {
+            "user": {
+              "id": "0x6405fc4fc8af2fbaa0f30f7badbde8130569c4b1"
+            }
+          },
+          {
+            "user": {
+              "id": "0x6e18d1471567c841fa12b64ebee495ed2a5b7b09"
+            }
+          },
+          {
+            "user": {
+              "id": "0x90291c13de0a54ef4c41d5837636e5bb17bc3077"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa1143ee9c3b809929a35694ffcdc3e2443f2404c"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa762f4f437210fe914da1c448a1dd555cfacee31"
+            }
+          },
+          {
+            "user": {
+              "id": "0xbf84bcaa844309efedb96c60d09c2e598272e359"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x1a-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665167004
+          },
+          {
+            "id": "0x1a-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665167004
+          },
+          {
+            "id": "0x1a-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665167004
+          }
+        ]
+      },
+      {
+        "id": "0x19",
+        "randomNum": "96",
+        "randomEliminator": "55892646755108515",
+        "vrfRequestId": "0xe7878e23bb7e9926d7aa069924441a55d670c0e0830b88aee886a1ba9eedc663",
+        "vrfNum": "88364225648992986438231888882886553773536946705469301524075960028117608499032",
+        "timestamp": 1665166882,
+        "users": [
+          {
+            "user": {
+              "id": "0x02d6548d4bd421f87b40c912137ca489708d2515"
+            }
+          },
+          {
+            "user": {
+              "id": "0x0b4afeb2f43e3f785d46dabcd703f0c82c107820"
+            }
+          },
+          {
+            "user": {
+              "id": "0x23b8f934b9f14271c812b01042537eb055fb6f10"
+            }
+          },
+          {
+            "user": {
+              "id": "0x9f9814901b4eb01d93b46b6ceb16b0cbd02834bc"
+            }
+          },
+          {
+            "user": {
+              "id": "0xbb7803bfbe5ad969e48ce418a47d380ac28b1740"
+            }
+          },
+          {
+            "user": {
+              "id": "0xc75030e40f0eb47ff695a08a4699218790ee5be5"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x19-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665166882
+          },
+          {
+            "id": "0x19-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665166882
+          },
+          {
+            "id": "0x19-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665166882
+          }
+        ]
+      },
+      {
+        "id": "0x18",
+        "randomNum": "88",
+        "randomEliminator": "764037562118669826",
+        "vrfRequestId": "0x2b13b95729842a9c16764e35b6595ca40a97d49dc75ba9b17609814d025a79ab",
+        "vrfNum": "51633520141472290753605233363576521688772085512622303933891256090717885744160",
+        "timestamp": 1665166760,
+        "users": [
+          {
+            "user": {
+              "id": "0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec"
+            }
+          },
+          {
+            "user": {
+              "id": "0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2"
+            }
+          },
+          {
+            "user": {
+              "id": "0x3ea5f4a1f35f833620af1c0013e0a6cb3ef3b3ae"
+            }
+          },
+          {
+            "user": {
+              "id": "0x4dcc6698476f58749c75dc50cd55490e4a8e7392"
+            }
+          },
+          {
+            "user": {
+              "id": "0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc"
+            }
+          },
+          {
+            "user": {
+              "id": "0xd766ad55254e14dcae152a30b5d6d0ce6f3f8f1f"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x18-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665166760
+          },
+          {
+            "id": "0x18-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665166760
+          },
+          {
+            "id": "0x18-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665166760
+          }
+        ]
+      },
+      {
+        "id": "0x17",
+        "randomNum": "50",
+        "randomEliminator": "396433583103579138",
+        "vrfRequestId": "0x80d5a70dd0729948073b4cd260c02282b4d9bcd673b6d451bbb631acda603d42",
+        "vrfNum": "49092266137308324847464965717318590647198186444348296906920707155100920275428",
+        "timestamp": 1665166637,
+        "users": [
+          {
+            "user": {
+              "id": "0x5d59110fec5e3602a136a0b41037a17ae8ffc9f2"
+            }
+          },
+          {
+            "user": {
+              "id": "0x932ad590f43792ec064467d65d77f0fe1f7a7ea3"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa2257edadaa38c845315b3b9038a8a1a306576ad"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa26e47663fc29dd2c8672f5750c008ffdfefacbe"
+            }
+          },
+          {
+            "user": {
+              "id": "0xa7fe5fc4446c1965e828193063b76b76430c576a"
+            }
+          },
+          {
+            "user": {
+              "id": "0xe4177c881c8e1ba37abff47f62c2b3a1bb1ada64"
+            }
+          }
+        ],
+        "eliminators": [
+          {
+            "id": "0x17-0x0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "recordedExpectedValueFloor": "980321568627440000",
+            "isEliminator": false,
+            "timestamp": 1665166637
+          },
+          {
+            "id": "0x17-0x1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "recordedExpectedValueFloor": "970873786407767000",
+            "isEliminator": false,
+            "timestamp": 1665166637
+          },
+          {
+            "id": "0x17-0x2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "recordedExpectedValueFloor": "961538461538462000",
+            "isEliminator": false,
+            "timestamp": 1665166637
+          }
+        ]
+      }
+    ],
+    "batchEntries": [
+      {
+        "id": "0x0-0x0b4afeb2f43e3f785d46dabcd703f0c82c107820",
+        "round": {
+          "id": "0x0"
+        },
+        "player": {
+          "id": "0x0b4afeb2f43e3f785d46dabcd703f0c82c107820"
+        },
+        "batchEntryId": "5",
+        "totalEntryAmount": "10093000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665163814,
+        "entrys": [
+          {
+            "id": "0x0-0x0b4afeb2f43e3f785d46dabcd703f0c82c107820-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "6451000000000000000000",
+            "pickedNumber": "1",
+            "mintAmount": "0",
+            "timestamp": 1665163814
+          },
+          {
+            "id": "0x0-0x0b4afeb2f43e3f785d46dabcd703f0c82c107820-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "3642000000000000000000",
+            "pickedNumber": "8",
+            "mintAmount": "0",
+            "timestamp": 1665163814
+          }
+        ]
+      },
+      {
+        "id": "0x0-0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2",
+        "round": {
+          "id": "0x0"
+        },
+        "player": {
+          "id": "0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2"
+        },
+        "batchEntryId": "0",
+        "totalEntryAmount": "21514000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665163774,
+        "entrys": [
+          {
+            "id": "0x0-0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "1081000000000000000000",
+            "pickedNumber": "1",
+            "mintAmount": "0",
+            "timestamp": 1665163774
+          },
+          {
+            "id": "0x0-0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "3556000000000000000000",
+            "pickedNumber": "66",
+            "mintAmount": "0",
+            "timestamp": 1665163774
+          },
+          {
+            "id": "0x0-0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2-0x2",
+            "entryIdx": "2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "7159000000000000000000",
+            "pickedNumber": "84",
+            "mintAmount": "0",
+            "timestamp": 1665163774
+          },
+          {
+            "id": "0x0-0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2-0x3",
+            "entryIdx": "3",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "2582000000000000000000",
+            "pickedNumber": "3",
+            "mintAmount": "0",
+            "timestamp": 1665163774
+          },
+          {
+            "id": "0x0-0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2-0x4",
+            "entryIdx": "4",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "7136000000000000000000",
+            "pickedNumber": "40",
+            "mintAmount": "0",
+            "timestamp": 1665163774
+          }
+        ]
+      },
+      {
+        "id": "0x0-0x4dcc6698476f58749c75dc50cd55490e4a8e7392",
+        "round": {
+          "id": "0x0"
+        },
+        "player": {
+          "id": "0x4dcc6698476f58749c75dc50cd55490e4a8e7392"
+        },
+        "batchEntryId": "3",
+        "totalEntryAmount": "15903000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665163794,
+        "entrys": [
+          {
+            "id": "0x0-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "6890000000000000000000",
+            "pickedNumber": "8",
+            "mintAmount": "0",
+            "timestamp": 1665163794
+          },
+          {
+            "id": "0x0-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "1691000000000000000000",
+            "pickedNumber": "78",
+            "mintAmount": "0",
+            "timestamp": 1665163794
+          },
+          {
+            "id": "0x0-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x2",
+            "entryIdx": "2",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "4234000000000000000000",
+            "pickedNumber": "13",
+            "mintAmount": "0",
+            "timestamp": 1665163794
+          },
+          {
+            "id": "0x0-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x3",
+            "entryIdx": "3",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "3088000000000000000000",
+            "pickedNumber": "22",
+            "mintAmount": "0",
+            "timestamp": 1665163794
+          }
+        ]
+      },
+      {
+        "id": "0x0-0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc",
+        "round": {
+          "id": "0x0"
+        },
+        "player": {
+          "id": "0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc"
+        },
+        "batchEntryId": "2",
+        "totalEntryAmount": "4719000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665163784,
+        "entrys": [
+          {
+            "id": "0x0-0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "2266000000000000000000",
+            "pickedNumber": "93",
+            "mintAmount": "0",
+            "timestamp": 1665163784
+          },
+          {
+            "id": "0x0-0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "2453000000000000000000",
+            "pickedNumber": "2",
+            "mintAmount": "0",
+            "timestamp": 1665163784
+          }
+        ]
+      },
+      {
+        "id": "0x0-0xc75030e40f0eb47ff695a08a4699218790ee5be5",
+        "round": {
+          "id": "0x0"
+        },
+        "player": {
+          "id": "0xc75030e40f0eb47ff695a08a4699218790ee5be5"
+        },
+        "batchEntryId": "4",
+        "totalEntryAmount": "18722000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665163804,
+        "entrys": [
+          {
+            "id": "0x0-0xc75030e40f0eb47ff695a08a4699218790ee5be5-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "5325000000000000000000",
+            "pickedNumber": "47",
+            "mintAmount": "0",
+            "timestamp": 1665163804
+          },
+          {
+            "id": "0x0-0xc75030e40f0eb47ff695a08a4699218790ee5be5-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "8994000000000000000000",
+            "pickedNumber": "1",
+            "mintAmount": "0",
+            "timestamp": 1665163804
+          },
+          {
+            "id": "0x0-0xc75030e40f0eb47ff695a08a4699218790ee5be5-0x2",
+            "entryIdx": "2",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "4403000000000000000000",
+            "pickedNumber": "0",
+            "mintAmount": "0",
+            "timestamp": 1665163804
+          }
+        ]
+      },
+      {
+        "id": "0x0-0xd766ad55254e14dcae152a30b5d6d0ce6f3f8f1f",
+        "round": {
+          "id": "0x0"
+        },
+        "player": {
+          "id": "0xd766ad55254e14dcae152a30b5d6d0ce6f3f8f1f"
+        },
+        "batchEntryId": "1",
+        "totalEntryAmount": "13167000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665163775,
+        "entrys": [
+          {
+            "id": "0x0-0xd766ad55254e14dcae152a30b5d6d0ce6f3f8f1f-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "7990000000000000000000",
+            "pickedNumber": "32",
+            "mintAmount": "0",
+            "timestamp": 1665163775
+          },
+          {
+            "id": "0x0-0xd766ad55254e14dcae152a30b5d6d0ce6f3f8f1f-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "5177000000000000000000",
+            "pickedNumber": "0",
+            "mintAmount": "0",
+            "timestamp": 1665163775
+          }
+        ]
+      },
+      {
+        "id": "0x10-0x0b4afeb2f43e3f785d46dabcd703f0c82c107820",
+        "round": {
+          "id": "0x10"
+        },
+        "player": {
+          "id": "0x0b4afeb2f43e3f785d46dabcd703f0c82c107820"
+        },
+        "batchEntryId": "5",
+        "totalEntryAmount": "8157000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665165752,
+        "entrys": [
+          {
+            "id": "0x10-0x0b4afeb2f43e3f785d46dabcd703f0c82c107820-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "7648000000000000000000",
+            "pickedNumber": "6",
+            "mintAmount": "0",
+            "timestamp": 1665165752
+          },
+          {
+            "id": "0x10-0x0b4afeb2f43e3f785d46dabcd703f0c82c107820-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "509000000000000000000",
+            "pickedNumber": "0",
+            "mintAmount": "0",
+            "timestamp": 1665165752
+          }
+        ]
+      },
+      {
+        "id": "0x10-0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec",
+        "round": {
+          "id": "0x10"
+        },
+        "player": {
+          "id": "0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec"
+        },
+        "batchEntryId": "1",
+        "totalEntryAmount": "34270000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665165712,
+        "entrys": [
+          {
+            "id": "0x10-0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "9315000000000000000000",
+            "pickedNumber": "88",
+            "mintAmount": "0",
+            "timestamp": 1665165712
+          },
+          {
+            "id": "0x10-0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "3974000000000000000000",
+            "pickedNumber": "74",
+            "mintAmount": "0",
+            "timestamp": 1665165712
+          },
+          {
+            "id": "0x10-0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec-0x2",
+            "entryIdx": "2",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "2458000000000000000000",
+            "pickedNumber": "6",
+            "mintAmount": "0",
+            "timestamp": 1665165712
+          },
+          {
+            "id": "0x10-0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec-0x3",
+            "entryIdx": "3",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "9276000000000000000000",
+            "pickedNumber": "28",
+            "mintAmount": "0",
+            "timestamp": 1665165712
+          },
+          {
+            "id": "0x10-0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec-0x4",
+            "entryIdx": "4",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "9247000000000000000000",
+            "pickedNumber": "1",
+            "mintAmount": "0",
+            "timestamp": 1665165712
+          }
+        ]
+      },
+      {
+        "id": "0x10-0x4dcc6698476f58749c75dc50cd55490e4a8e7392",
+        "round": {
+          "id": "0x10"
+        },
+        "player": {
+          "id": "0x4dcc6698476f58749c75dc50cd55490e4a8e7392"
+        },
+        "batchEntryId": "3",
+        "totalEntryAmount": "15715000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665165732,
+        "entrys": [
+          {
+            "id": "0x10-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "6787000000000000000000",
+            "pickedNumber": "9",
+            "mintAmount": "0",
+            "timestamp": 1665165732
+          },
+          {
+            "id": "0x10-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x1"
+            },
+            "amount": "2286000000000000000000",
+            "pickedNumber": "0",
+            "mintAmount": "0",
+            "timestamp": 1665165732
+          },
+          {
+            "id": "0x10-0x4dcc6698476f58749c75dc50cd55490e4a8e7392-0x2",
+            "entryIdx": "2",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "6642000000000000000000",
+            "pickedNumber": "0",
+            "mintAmount": "0",
+            "timestamp": 1665165732
+          }
+        ]
+      },
+      {
+        "id": "0x10-0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc",
+        "round": {
+          "id": "0x10"
+        },
+        "player": {
+          "id": "0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc"
+        },
+        "batchEntryId": "2",
+        "totalEntryAmount": "7314000000000000000000",
+        "totalMintAmount": "0",
+        "settled": null,
+        "settledOn": null,
+        "timestamp": 1665165721,
+        "entrys": [
+          {
+            "id": "0x10-0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc-0x0",
+            "entryIdx": "0",
+            "contractMode": {
+              "id": "0x2"
+            },
+            "amount": "4109000000000000000000",
+            "pickedNumber": "95",
+            "mintAmount": "0",
+            "timestamp": 1665165721
+          },
+          {
+            "id": "0x10-0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc-0x1",
+            "entryIdx": "1",
+            "contractMode": {
+              "id": "0x0"
+            },
+            "amount": "3205000000000000000000",
+            "pickedNumber": "1",
+            "mintAmount": "0",
+            "timestamp": 1665165721
+          }
+        ]
+      }
+    ],
+    "contractModes": [
+      {
+        "id": "0x0",
+        "cardinality": "2",
+        "contractExpectedValueFloor": "980321568627440000",
+        "mintMultiplier": "2",
+        "minAmount": "0",
+        "maxAmount": "0",
+        "entryLimit": "1",
+        "isActive": true,
+        "timestamp": 1665082057
+      },
+      {
+        "id": "0x1",
+        "cardinality": "10",
+        "contractExpectedValueFloor": "970873786407767000",
+        "mintMultiplier": "10",
+        "minAmount": "0",
+        "maxAmount": "0",
+        "entryLimit": "5",
+        "isActive": true,
+        "timestamp": 1665082058
+      },
+      {
+        "id": "0x2",
+        "cardinality": "100",
+        "contractExpectedValueFloor": "961538461538462000",
+        "mintMultiplier": "100",
+        "minAmount": "0",
+        "maxAmount": "0",
+        "entryLimit": "10",
+        "isActive": true,
+        "timestamp": 1665082059
+      }
+    ],
+    "users": [
+      {
+        "id": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "balance": "49975000000000000000000000000",
+        "totalRounds": "0",
+        "totalEntries": "0",
+        "totalMint": "50000000000000000000000000000",
+        "totalBurn": "0",
+        "transferIn": "0",
+        "transferOut": "25000000000000000000000000",
+        "timestamp": 1665163468
+      },
+      {
+        "id": "0x879dad3f27544fdde6ad8abd82a5fd454b9d0bfc",
+        "balance": "933252000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "19",
+        "totalMint": "0",
+        "totalBurn": "66748000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167220
+      },
+      {
+        "id": "0x3ea5f4a1f35f833620af1c0013e0a6cb3ef3b3ae",
+        "balance": "926430000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "21",
+        "totalMint": "0",
+        "totalBurn": "73570000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167678
+      },
+      {
+        "id": "0x4dcc6698476f58749c75dc50cd55490e4a8e7392",
+        "balance": "920299000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "16",
+        "totalMint": "0",
+        "totalBurn": "79701000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167292
+      },
+      {
+        "id": "0x0b4afeb2f43e3f785d46dabcd703f0c82c107820",
+        "balance": "911419000000000000000000",
+        "totalRounds": "7",
+        "totalEntries": "17",
+        "totalMint": "0",
+        "totalBurn": "88581000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167312
+      },
+      {
+        "id": "0x1d7f8f1b37ecb4d0c1e1712fa98af777174174ec",
+        "balance": "910996000000000000000000",
+        "totalRounds": "7",
+        "totalEntries": "18",
+        "totalMint": "0",
+        "totalBurn": "89004000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167209
+      },
+      {
+        "id": "0x90291c13de0a54ef4c41d5837636e5bb17bc3077",
+        "balance": "905611000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "27",
+        "totalMint": "0",
+        "totalBurn": "94389000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167454
+      },
+      {
+        "id": "0xe34af32c099c7cbef9d2e94ef6017609efc1b811",
+        "balance": "903986000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "24",
+        "totalMint": "0",
+        "totalBurn": "96014000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167547
+      },
+      {
+        "id": "0xe4177c881c8e1ba37abff47f62c2b3a1bb1ada64",
+        "balance": "903558000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "19",
+        "totalMint": "0",
+        "totalBurn": "96442000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167566
+      },
+      {
+        "id": "0xa7fe5fc4446c1965e828193063b76b76430c576a",
+        "balance": "901959000000000000000000",
+        "totalRounds": "8",
+        "totalEntries": "19",
+        "totalMint": "0",
+        "totalBurn": "98041000000000000000000",
+        "transferIn": "1000000000000000000000000",
+        "transferOut": "0",
+        "timestamp": 1665167576
+      }
+    ],
+    "fareTransfers": [
+      {
+        "id": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7-0x1",
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "amount": "73960000000000000000",
+        "type": "Mint",
+        "timestamp": 1665167688
+      },
+      {
+        "id": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7-0x0",
+        "from": "0x2d2076a721ef33a9cff18b950cd8afb48e8c21a2",
+        "to": "0x0000000000000000000000000000000000000000",
+        "amount": "7396000000000000000000",
+        "type": "Burn",
+        "timestamp": 1665167688
+      },
+      {
+        "id": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711-0x1",
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "amount": "52830000000000000000",
+        "type": "Mint",
+        "timestamp": 1665167678
+      },
+      {
+        "id": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711-0x0",
+        "from": "0x3ea5f4a1f35f833620af1c0013e0a6cb3ef3b3ae",
+        "to": "0x0000000000000000000000000000000000000000",
+        "amount": "5283000000000000000000",
+        "type": "Burn",
+        "timestamp": 1665167678
+      },
+      {
+        "id": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c-0x1",
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "amount": "154710000000000000000",
+        "type": "Mint",
+        "timestamp": 1665167668
+      },
+      {
+        "id": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c-0x0",
+        "from": "0xa26e47663fc29dd2c8672f5750c008ffdfefacbe",
+        "to": "0x0000000000000000000000000000000000000000",
+        "amount": "15471000000000000000000",
+        "type": "Burn",
+        "timestamp": 1665167668
+      },
+      {
+        "id": "0x5d28d36a6d99d703586cf3601847d4662e0224bfe827d9826effa8eb93c9b030-0x1",
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "amount": "111390000000000000000",
+        "type": "Mint",
+        "timestamp": 1665167659
+      },
+      {
+        "id": "0x5d28d36a6d99d703586cf3601847d4662e0224bfe827d9826effa8eb93c9b030-0x0",
+        "from": "0x932ad590f43792ec064467d65d77f0fe1f7a7ea3",
+        "to": "0x0000000000000000000000000000000000000000",
+        "amount": "11139000000000000000000",
+        "type": "Burn",
+        "timestamp": 1665167659
+      },
+      {
+        "id": "0xbd360b3479b2f9157404f61bcc3a2b4241f4da2e95ab9be1f7d51a21a4d1764e-0x1",
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "amount": "156630000000000000000",
+        "type": "Mint",
+        "timestamp": 1665167586
+      },
+      {
+        "id": "0xbd360b3479b2f9157404f61bcc3a2b4241f4da2e95ab9be1f7d51a21a4d1764e-0x0",
+        "from": "0xa2257edadaa38c845315b3b9038a8a1a306576ad",
+        "to": "0x0000000000000000000000000000000000000000",
+        "amount": "15663000000000000000000",
+        "type": "Burn",
+        "timestamp": 1665167586
+      }
+    ],
+    "eventLogs": [
+      {
+        "id": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7-0x2",
+        "address": "0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9",
+        "blockNumber": 347,
+        "logIndex": "2",
+        "logType": "EntrySubmitted",
+        "txHash": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7",
+        "timestamp": 1665167688
+      },
+      {
+        "id": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7-0x1",
+        "address": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+        "blockNumber": 347,
+        "logIndex": "1",
+        "logType": "Transfer",
+        "txHash": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7",
+        "timestamp": 1665167688
+      },
+      {
+        "id": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7-0x0",
+        "address": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+        "blockNumber": 347,
+        "logIndex": "0",
+        "logType": "Transfer",
+        "txHash": "0x5555045f11958152d6f5087d617bea96f4c396dfe08133443e0763d4ed5ac5d7",
+        "timestamp": 1665167688
+      },
+      {
+        "id": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711-0x2",
+        "address": "0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9",
+        "blockNumber": 346,
+        "logIndex": "2",
+        "logType": "EntrySubmitted",
+        "txHash": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711",
+        "timestamp": 1665167678
+      },
+      {
+        "id": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711-0x1",
+        "address": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+        "blockNumber": 346,
+        "logIndex": "1",
+        "logType": "Transfer",
+        "txHash": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711",
+        "timestamp": 1665167678
+      },
+      {
+        "id": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711-0x0",
+        "address": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+        "blockNumber": 346,
+        "logIndex": "0",
+        "logType": "Transfer",
+        "txHash": "0x85305d32d7e349e4aa67395cd571c6e50adbb1ea433648f723f1b56ddf6dc711",
+        "timestamp": 1665167678
+      },
+      {
+        "id": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c-0x2",
+        "address": "0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9",
+        "blockNumber": 345,
+        "logIndex": "2",
+        "logType": "EntrySubmitted",
+        "txHash": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c",
+        "timestamp": 1665167668
+      },
+      {
+        "id": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c-0x1",
+        "address": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+        "blockNumber": 345,
+        "logIndex": "1",
+        "logType": "Transfer",
+        "txHash": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c",
+        "timestamp": 1665167668
+      },
+      {
+        "id": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c-0x0",
+        "address": "0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0",
+        "blockNumber": 345,
+        "logIndex": "0",
+        "logType": "Transfer",
+        "txHash": "0xe1d0f64471574fd3a6eea5f5dc961e622f3e94b1263f273abd60563fc6e5da3c",
+        "timestamp": 1665167668
+      },
+      {
+        "id": "0x5d28d36a6d99d703586cf3601847d4662e0224bfe827d9826effa8eb93c9b030-0x2",
+        "address": "0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9",
+        "blockNumber": 344,
+        "logIndex": "2",
+        "logType": "EntrySubmitted",
+        "txHash": "0x5d28d36a6d99d703586cf3601847d4662e0224bfe827d9826effa8eb93c9b030",
+        "timestamp": 1665167659
+      }
+    ]
+  }
+}

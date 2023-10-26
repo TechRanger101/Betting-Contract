@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "types": ["@nomicfoundation/hardhat-toolbox", "hardhat-deploy", "hardhat"]
+  },
+  "include": [
+    "hardhat.config.ts",
+    "./scripts",
+    "./test",
+    "./tasks",
+    "./typechain-types",
+    "./deploy",
+    "/config",
+    "./calc"
+  ],
+  "files": ["./hardhat.config.ts"],
+  "include": ["calc", "config", "deploy", "scripts", "tasks", "test", "typechain-types"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,20 @@
+{
+    "extends": "@sindresorhus/tsconfig",
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "strictNullChecks": false,
+        "outDir": "dist",
+        "forceConsistentCasingInFileNames": false
+    },
+    "include": [
+        "src"
+    ]
+}

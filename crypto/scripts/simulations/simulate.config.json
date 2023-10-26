@@ -1,0 +1,12 @@
+{
+  "contractName": "FarePlinko",
+  "ppv": "0.01",
+  "ppvType": "BaseSUContract",
+  "minEntryCount": "1",
+  "maxEntryCount": "5",
+  "minSide": "268",
+  "maxSide": "268",
+  "minFareAmount": "1000",
+  "maxFareAmount": "1000",
+  "totalRoundCount": "10000"
+}
